@@ -5,7 +5,7 @@ import "./index.css";
 import Questions from "./components/Questions";
 
 const App = () => {
-  const [questions, setQuestions] = useState(data);
+  const [questions] = useState(data);
   const [activeId, setActiveId] = useState(0);
 
   const toggleQuestion = (id: number) => {
